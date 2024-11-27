@@ -13,8 +13,8 @@ resource "aws_s3_bucket" "terraform_state" {
   #   }
 }
 # Define an IAM policy for accessing the S3 bucket
-resource "aws_iam_policy" "terraform_state_policy" {
-  name        = "TerraformStatePolicy"
+resource "aws_iam_policy" "my_terraform_state_policy" {
+  name        = "MyTerraformStatePolicy"
   description = "Policy for managing access to the S3 bucket"
 
   policy = jsonencode({

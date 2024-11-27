@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "bucket_name" {
   type        = string
   description = "The name of the S3 bucket. Must be globally unique."
-  default     = "s7k-bucket"
+  default     = "s7ko-bucket"
 }
 
 variable "environment" {

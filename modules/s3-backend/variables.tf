@@ -7,7 +7,7 @@ variable "region" {
 variable "dynamodb_table_name" {
   description = "The name of the DynamoDB table for state locking"
   type        = string
-  default     = "s7k-Ddb"
+  default     = "s7ko-Ddb"
 }
 
 variable "environment" {
